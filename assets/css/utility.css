@@ -1,0 +1,41 @@
+/* Base */
+.gray-100 {
+    color: var(--gray-100);
+}
+
+.gray-200 {
+    color: var(--gray-200);
+}
+
+.gray-300 {
+    color: var(--gray-300);
+}
+
+.gray-400 {
+    color: var(--gray-400);
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.gray-600 {
+    color: var(--gray-600);
+}
+
+/* Fontes */
+.sub-t {
+    font: var(--sub-t);
+}
+
+.t-lg {
+    font: var(--t-lg);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}

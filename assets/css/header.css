@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(../images/Background_Intro.png);
+
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+
+    .avatar {
+        /* tamanho total do círculo vermelho */
+        width: 96px;
+        height: 96px;
+
+        /* borda vermelha */
+        border: 2px solid var(--red);
+        border-radius: 50%;
+
+        /* centro */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+
+
+        margin: 120px auto 56px; /* cima | laterais | baixo */
+
+        #perfil {
+            /* foto menor para o vão entre borda e foto */
+            width: 84px;
+            height: 84px;
+
+            /* redondo */
+            border-radius: 50%;
+
+            /* não deixa rosto esticado ou espremido */
+            object-fit: cover;
+        }
+
+        #code {
+            position: absolute;
+
+            /* controla pra onde vai o icone */
+            bottom: -5px;
+            right: -10px;
+        }
+    }
+
+    .hello {
+        margin-bottom: 8px;
+    }
+
+    span {
+        color: var(--red);
+    }
+
+    .dev {
+        margin-bottom: 20px;
+    }
+
+    .desc {
+        max-width: 680px;
+    }
+
+    .tags {
+        display: flex;
+
+        margin-top: 80px;
+        gap: 16px;
+
+        #github, #html, #css {
+            display: flex;
+            gap: 8px; /* espaço entre icone e palavra */
+            align-items: center; /* centralizando o icone e a palavra */
+
+            background: var(--gray-400);
+            padding-block: 8px; /* cima | baixo */
+            padding-inline: 16px; /* esquerda | direita */
+            border-radius: 999px; /* formato de cápsula */
+        }
+    }
+
+    .seta {
+        margin: 94px auto 0;
+    }
+}
