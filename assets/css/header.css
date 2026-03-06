@@ -2,13 +2,16 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: center; /* centraliza os textos */
 
     background-image: url(../images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
     width: 100%;
     height: 750px;
-    background-size: cover;
+    
 
     .avatar {
         /* tamanho total do círculo vermelho */
@@ -71,17 +74,6 @@ header {
 
         margin-top: 80px;
         gap: 16px;
-
-        #github, #html, #css {
-            display: flex;
-            gap: 8px; /* espaço entre icone e palavra */
-            align-items: center; /* centralizando o icone e a palavra */
-
-            background: var(--gray-400);
-            padding-block: 8px; /* cima | baixo */
-            padding-inline: 16px; /* esquerda | direita */
-            border-radius: 999px; /* formato de cápsula */
-        }
     }
 
     .seta {
