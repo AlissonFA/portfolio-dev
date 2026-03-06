@@ -71,6 +71,8 @@ header {
 
     .tags {
         display: flex;
+        
+        list-style: none; /* tira as bolinhas da ul */
 
         margin-top: 80px;
         gap: 16px;
