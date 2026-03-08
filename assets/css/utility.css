@@ -41,16 +41,16 @@
     font: var(--t-sm);
 }
 
+.sub-t {
+    font: var(--sub-t);
+}
+
 .text-md {
     font: var(--text-md);
 }
 
 .text-sm {
     font: var(--text-sm);
-}
-
-.sub-t {
-    font: var(--sub-t);
 }
 
 /* Tecnologias */
@@ -67,5 +67,9 @@
 
 .p-projeto {
     margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.m-b-8 {
     margin-bottom: 8px;
 }

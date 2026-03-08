@@ -1,7 +1,7 @@
 main {
-    background: var(--gray-500);
-    padding-block: 72px 144px;
-    padding-inline: 120px;
+    background-color: var(--gray-500);
+    padding-block: 72px 144px; /* Cima | Baixo */
+    padding-inline: 120px; /* Esquerda | Direita */
 
     .flex {
         display: flex;
@@ -26,7 +26,7 @@ main {
 
         justify-content: center; /* centralizar os projetos no meio (X) */
         
-        div {
+        .item {
             width: 330px;
             height: 280px;
 
@@ -35,12 +35,17 @@ main {
             padding-inline: 12px;
 
             border-radius: 12px;
-        }
 
-        img {
-            width: 306px;
-            height: 156px;
-            border-radius: 8px;
+            img {
+                width: 306px;
+                height: 156px;
+                border-radius: 8px;
+            }
+
+            .card-p {
+                padding: 4px;
+                margin-top: 20px;
+            }
         }
     }
 }
