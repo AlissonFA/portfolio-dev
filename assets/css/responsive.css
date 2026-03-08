@@ -1,0 +1,72 @@
+/* Telas menores que 1024 px (tablet) */
+@media (max-width: 1024px) {
+    main {
+        padding-inline: 24px;
+
+        .grid {
+            grid-template-columns: repeat(2, 330px);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        min-height: 750px;
+
+        .hello {
+            padding-inline: 4px; /* reduzindo hello */
+        }
+
+        .dev {
+            font: 700 32px/120% var(--font-family-asap); /* ajustando tamanho da fonte do dev front */
+        }
+
+        .desc {
+            padding-inline: 16px; /* reduzindo desc */
+        }
+
+        .tags {
+            flex-wrap: wrap; /* faz as linhas descerem quando o espaço acaba */
+            justify-content: center;
+            gap: 8px; /* reduzindo gap para caber 2 por linha */
+            padding-inline: 40px; /* forçar quebra de colunas */
+        }
+    }
+    
+    main {
+        padding-inline: 16px;
+
+        .grid {
+            grid-template-columns: 330px;
+
+            .item {
+                height: auto;
+
+                img {
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    section {
+        padding-inline: 16px; /* evita quebra do título */
+    }
+
+    footer {
+        padding-inline: 24px;
+
+        .titulo {
+            .text-md {
+                font-size: 13px; /* reduz "Entre em contato..." */
+            }
+        }
+
+        .links {
+            .social {
+                width: 300px;
+            }
+        }
+    }
+}
