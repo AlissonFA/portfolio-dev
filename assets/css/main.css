@@ -25,6 +25,24 @@ main {
         gap: 24px;
 
         justify-content: center; /* centralizar os projetos no meio (X) */
+
+        a {
+            text-decoration: none; /* tira o sublinhado azul dos links */
+
+            /* Dava pra fazer isso para os botões não crescerem
+
+            border: 1.5px solid transparent; 
+            border-radius: 12px; */
+
+            &:hover {
+                border: 1.5px solid var(--gray-300);
+                border-radius: 12px;
+
+                /* Para caso fosse utilizar o border transparent; isso aqui iria mostrar na tela
+                
+                border-color: var(--gray-300); */
+            }
+        }
         
         .item {
             width: 330px;
