@@ -1,3 +1,8 @@
+/* Principal */
+.red {
+    color: var(--red);
+}
+
 /* Base */
 .gray-100 {
     color: var(--gray-100);
@@ -24,12 +29,16 @@
 }
 
 /* Fontes */
-.sub-t {
-    font: var(--sub-t);
-}
-
 .t-lg {
     font: var(--t-lg);
+}
+
+.t-md {
+    font: var(--t-md);
+}
+
+.t-sm {
+    font: var(--t-sm);
 }
 
 .text-md {
@@ -38,6 +47,10 @@
 
 .text-sm {
     font: var(--text-sm);
+}
+
+.sub-t {
+    font: var(--sub-t);
 }
 
 /* Tecnologias */
@@ -50,4 +63,9 @@
     padding-block: 8px; /* cima | baixo */
     padding-inline: 16px; /* esquerda | direita */
     border-radius: 999px; /* formato de cápsula */
+}
+
+.p-projeto {
+    margin-top: 20px;
+    margin-bottom: 8px;
 }

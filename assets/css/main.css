@@ -1,0 +1,46 @@
+main {
+    background: var(--gray-500);
+    padding-block: 72px 144px;
+    padding-inline: 120px;
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        span {
+            margin-bottom: 8px;
+        }
+    }
+
+    .grid {
+        margin-top: 56px; /* espaço entre as caixas dos projetos e do texto meu trabalho */
+
+        display: grid;
+        grid-template-areas:
+        "dev tech travel"
+        "pt gta pr";
+
+        gap: 24px;
+
+        justify-content: center; /* centralizar os projetos no meio (X) */
+        
+        div {
+            width: 330px;
+            height: 280px;
+
+            background: var(--gray-400);
+            padding-block: 12px 17px;
+            padding-inline: 12px;
+
+            border-radius: 12px;
+        }
+
+        img {
+            width: 306px;
+            height: 156px;
+            border-radius: 8px;
+        }
+    }
+}
