@@ -49,8 +49,7 @@ main {
             height: 280px;
 
             background: var(--gray-400);
-            padding-block: 12px 17px;
-            padding-inline: 12px;
+            padding: 12px;
 
             border-radius: 12px;
 
@@ -58,11 +57,11 @@ main {
                 width: 306px;
                 height: 156px;
                 border-radius: 8px;
+                margin-bottom: 20px;
             }
 
             .card-p {
                 padding: 4px;
-                margin-top: 20px;
             }
         }
     }
