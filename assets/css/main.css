@@ -1,65 +1,65 @@
 main {
-    background-color: var(--gray-500);
-    padding-block: 72px 144px; /* Cima | Baixo */
-    padding-inline: 120px; /* Esquerda | Direita */
+  background-color: var(--gray-500);
+  padding-block: 72px 144px; /* Cima | Baixo */
+  padding-inline: 120px; /* Esquerda | Direita */
 
-    .flex {
-        display: flex;
-        flex-direction: column;
+  .flex {
+    display: flex;
+    flex-direction: column;
 
-        align-items: center;
+    align-items: center;
 
-        span {
-            margin-bottom: 8px;
-        }
+    span {
+      margin-bottom: 8px;
     }
+  }
 
-    .grid {
-        margin-top: 56px; /* espaço entre as caixas dos projetos e do texto meu trabalho */
+  .grid {
+    margin-top: 56px; /* espaço entre as caixas dos projetos e do texto meu trabalho */
 
-        display: grid;
-        grid-template-columns: repeat(3, 330px);
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
 
-        gap: 24px;
+    gap: 24px;
 
-        justify-content: center; /* centralizar os projetos no meio (X) */
+    justify-content: center; /* centralizar os projetos no meio (X) */
 
-        a {
-            text-decoration: none; /* tira o sublinhado azul dos links */
+    a {
+      text-decoration: none; /* tira o sublinhado azul dos links */
 
-            /* Dava pra fazer isso para os botões não crescerem
+      /* Dava pra fazer isso para os botões não crescerem
 
             border: 1.5px solid transparent; 
             border-radius: 12px; */
 
-            &:hover {
-                border: 1.5px solid var(--gray-300);
-                border-radius: 12px;
+      &:hover {
+        border: 1.5px solid var(--gray-300);
+        border-radius: 12px;
 
-                /* Para caso fosse utilizar o border transparent; isso aqui iria mostrar na tela
+        /* Para caso fosse utilizar o border transparent; isso aqui iria mostrar na tela
                 
                 border-color: var(--gray-300); */
-            }
-        }
-        
-        .item {
-            height: 280px;
-
-            background: var(--gray-400);
-            padding: 12px;
-
-            border-radius: 12px;
-
-            img {
-                width: 100%;
-                height: 156px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-
-            .card-p {
-                padding: 4px;
-            }
-        }
+      }
     }
+
+    .item {
+      height: 280px;
+
+      background: var(--gray-400);
+      padding: 12px;
+
+      border-radius: 12px;
+
+      img {
+        width: 100%;
+        height: 156px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      .card-p {
+        padding: 4px;
+      }
+    }
+  }
 }
