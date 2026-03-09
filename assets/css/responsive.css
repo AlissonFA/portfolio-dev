@@ -53,6 +53,12 @@
 
   section {
     padding-inline: 16px; /* evita quebra do título */
+
+    .titulo {
+      .t-md {
+        font: 700 20px/120% var(--font-family-asap);
+      }
+    }
   }
 
   footer {
@@ -60,7 +66,7 @@
 
     .titulo {
       .text-md {
-        font-size: 13px; /* reduz "Entre em contato..." */
+        font: 400 10px/140% var(--font-family-maven); /* reduz "Entre em contato..." */
       }
     }
 
