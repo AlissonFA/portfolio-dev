@@ -72,6 +72,17 @@ header {
 
         margin-top: 80px;
         gap: 16px;
+
+        .tech {
+            display: flex;
+            gap: 8px; /* espaço entre icone e palavra */
+            align-items: center; /* centralizando o icone e a palavra */
+
+            background: var(--gray-400);
+            padding-block: 8px; /* cima | baixo */
+            padding-inline: 16px; /* esquerda | direita */
+            border-radius: 999px; /* formato de cápsula */
+        }
     }
 
     .seta {
