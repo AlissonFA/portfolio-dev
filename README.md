@@ -4,7 +4,6 @@
   <a href="#-o-projeto">O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -38,10 +37,6 @@ Você pode visualizar e interagir com o projeto através dos links abaixo:
 1. Faça o download ou clone o repositório.
 2. Certifique-se de que a estrutura de pastas está correta.
 3. Dê um duplo clique no arquivo `index.html` ou abra através da extensão *Live Server* no seu editor de código.
-
-## 📝 Licença
-
-Esse projeto está sob a licença MIT.
 
 ---
 
