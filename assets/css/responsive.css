@@ -9,6 +9,7 @@
     }
 }
 
+/* Telas menores que 768px (celular) */
 @media (max-width: 768px) {
     header {
         height: auto;
